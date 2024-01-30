@@ -1,5 +1,6 @@
 ---
 title: "PHI 538 Philosophy of Physics"
+date: "Spring 2023"
 author: Hans Halvorson
 ---
 
