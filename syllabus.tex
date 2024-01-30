@@ -1,0 +1,863 @@
+\documentclass[11pt]{article}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{enumitem}
+\setlist[itemize]{itemsep=0.1em}
+\newcommand\rurl[1]{%
+  \href{http://#1}{\nolinkurl{#1}}%
+}
+
+\usepackage{graphicx}
+\def\rot#1{\rotatebox[origin=c]{180}{#1}}
+
+\usepackage{doi}
+\usepackage[backend=biber,natbib=true,style=authoryear]{biblatex}
+\addbibresource{relativity-lessons.bib}
+
+
+\begin{document}
+
+\section*{Philosophy of Physics: Spacetime and Objectivity}
+
+% Zuordnungssystem
+
+%% one way speed of light 
+
+% what's special about diffeomorphisms?
+
+%% Galilean spacetime
+%% https://ncatlab.org/zoranskoda/show/Galilean+structure
+%% Arnold. Mathematical methods classical mechanics
+%% Penrose, Road to reality (fiber bundle)
+
+%% Epstein. The Geometrical Language of Continuum Mechanics
+%% Tausk. Notes on Mathematical Physics for Mathematicians
+% Dodson and Poston. Tensor geometry
+% Emam. Covariant Physics: From Classical Mechanics to General Relativity and Beyond
+
+%% definability
+
+%% concept empiricism
+
+%% Mundy dissertation (synthetic affine geometry)
+
+%% passive versus active transformations 
+
+%% Poincare group
+
+%% Ehrenfest paradox
+
+%% synthetic differential geometry
+
+%% Einstein algebras 
+
+%% invariants
+
+%% Eric Mascall
+
+Spring 2023
+
+\medskip \noindent This seminar will run in two intertwining
+streams. In the first stream, we will learn/review spacetime geometry
+(with focus on Minkowski spacetime, and including some basic material
+on Lorentzian manifolds). In the second stream, we will discuss the
+relevant philosophical issues. (Less scientifically oriented students
+can follow the second stream without paying much attention to the
+first.)  To be more concrete, we spend week 1 talking about general
+philosophical issues. Then we spend weeks 2--4 getting the basics of
+spacetime geometry under our belt. From then on (weeks 5--12), we
+spend one third of each session on spacetime geometry, and two thirds
+on discussion of the philosophical issues.
+
+% \subsection*{Grading scheme for UG students}
+
+% \begin{itemize}
+% \item Weekly problem sets (60\%) Due at the beginning of seminar each
+%   week. Problems will be drawn primarily from the two Malament books
+%   below
+% \item In-class presentation (20\%) Each student will sign up to
+%   present and lead discussion during one of the seminar sessions
+% \item Take-home final exam (20\%) Due on Dean's Date
+% \end{itemize}
+
+\subsection*{Spacetime geometry}
+
+Our two main sources are:
+\begin{enumerate}
+\item Malament. \emph{Notes on geometry and spacetime}
+  \url{philsci-archive.pitt.edu/16760/}
+\item Malament. \textit{Topics in the foundations of general
+    relativity and Newtonian gravitation theory}
+\end{enumerate}
+
+% Penrose, The road to reality
+
+\subsection*{Philosophical issues}
+
+\begin{enumerate}
+\item Absolute vs Relative $|$ Objective vs Subjective
+  \begin{itemize}
+  \item Selections from Bernard Williams, \emph{Descartes: the project
+      of pure enquiry} and \emph{Ethics and the limits of philosophy}
+  \item Putnam. ``Bernard Williams and the absolute conception of the
+    world'' in \emph{Renewing philosophy}
+  \item Holt. Invariance \rurl{edge.org/response-detail/27053}
+  \end{itemize}
+  % invariants
+
+\item Issues in the philosophy of time  
+
+\item Paradox? Twins, barns, and distant stars % Andromeda: Emperor's new mind
+  \begin{itemize}
+  \item McCall and Lowe. 3D/4D equivalence, the twins paradox and
+    absolute time \rurl{doi.org/10.1111/1467-8284.00020}
+  \item Nerlich. How the twins do it: STR and the clock paradox
+    \rurl{doi.org/10.1093/analys/64.1.21}
+  \item Miller. The twins’ paradox and temporal passage
+    \rurl{doi.org/10.1111/j.0003-2638.2004.00486.x}
+  \item Friebe. Twins' paradox and closed timelike curves: the role
+    of proper time and the presentist view on spacetime
+    \rurl{doi.org/10.1007/s10838-012-9194-0}
+  \item Maudlin. \textit{Philosophy of physics: space and time}
+  \item Barrow and Levin. Twin paradox in compact spaces
+  \item Weeks. The twin paradox in a closed universe
+  \end{itemize}
+  %% Penrose Andromeda paradox
+
+
+
+%% TO DO: Johnston -- we don't know what we mean by "the present"  
+
+\item Does relativity theory refute objective becoming? 
+  \begin{itemize}
+  \item Putnam. Time and physical geometry
+  \item Stein. On Einstein-Minkowksi space-time
+  \item Sider. \emph{Four dimensionalism}
+  \item Balashov and Janssen. Critical notice: presentism and
+    relativity
+  \item Craig. ``The elimination of absolute time by the special
+    theory of relativity'' in \textit{God and time: essays on the
+      divine nature}
+  \item Craig. ``The metaphysics of special relativity: three views''
+  \item Craig. \textit{Time and the metaphysics of relativity}
+  \item Zimmerman. Presentism and the spacetime manifold
+  \item Pooley. Relativity, the open future, and the passage of time
+  \item Rovelli. Neither presentism nor eternalism
+    \rurl{doi.org/10.1007/s10701-019-00312-9}
+  \item Dorato. Putnam on time and special relativity: a long journey
+    from ontology to ethics
+  \item Eagle. Relativity and the A-theory
+    \rurl{doi.org/10.4324/9781315623818-11}
+  \item Thyssen. The Rietdijk-Putnam-Maxwell argument
+  \end{itemize}
+
+
+% Skow shapes intrinsic?
+  
+\item Four-dimensional objects
+  \begin{itemize}
+  \item Costa et al. Relativity and three four-dimensionalisms
+    \rurl{doi.org/10.1111/phc3.12308}
+  \item Balashov. Relativistic objects \rurl{doi.org/10.1111/0029-4624.00198}
+  \item Davidson. Special relativity and the intrinsicality of
+    shape \rurl{doi.org/10.1093/analys/ant100}
+  \item Balashov. On the invariance and intrinsicality of
+    four-dimensional shapes in special relativity
+  \item Calosi. The relativistic invariance of 4D shapes
+  \item Halvorson. Invariance and ontology in relativistic physics
+    \rurl{philpapers.org/rec/HALTIN-3}
+ \item Penrose. The apparent shape of a relativistically moving
+    sphere
+  \item Terrell. Invisibility of the Lorentz contraction
+  \item K{\"o}lbel. Objectivity and perspectival content
+    \doi{10.1007/s10670-019-00188-1}
+  \item Le Bihan. From spacetime to space and time: A reply to
+    Markosian \doi{10.1093/analys/anz098}
+  \end{itemize}
+
+\item Fine's fragmentalism
+  \begin{itemize}
+  \item Fine. ``Tense and reality'' in \emph{Modality and Tense}
+    \rurl{doi.org/10.1093/0199278709.001.0001}
+  \item Lipman. On Fine's fragmentalism
+  \item Hofweber and Lange. Fine’s fragmentalist interpretation of special relativity
+  \item Lipman. On the fragmentalist interpretation of special relativity
+  \item Hofweber and Lange. Fragmentalism and special relativity
+  \item Slavov. Eternalism and perspectival realism about the `now'\,
+    \rurl{doi.org/10.1007/s10701-020-00385-x}
+  \end{itemize}
+
+\item Is Lorentz contraction a physical effect?
+  % the rod in itself
+  % is it Cambridge change? | intrinsic
+  % is it change in description?
+  \begin{itemize}
+  \item Dieks. The `reality' of the Lorentz contraction
+    \rurl{jstor.org/stable/25170686}
+  \item Lange. ``How to explain the Lorentz transformations'' in
+    Mumford and Tugby (eds.) \textit{Metaphysics and Science}
+    \rurl{doi.org/10.1093/acprof:oso/9780199674527.003.0004}
+  \item Maudlin. \textit{Philosophy of physics: space and time}
+  \item \fullcite{giovanelli2023}
+  \item \fullcite{epstein2018}  
+  %% Favrholdt  
+  \end{itemize}
+  
+\item Bell's Lorentzian pedagogy 
+  \begin{itemize}
+  \item Bell. ``How to teach special relativity''
+  \item Nerlich. Bell's `Lorentzian pedagogy': a bad education
+    \rurl{philsci-archive.pitt.edu/5454/1/Bell.pdf}
+  \item Maudlin. ``The physics of measurement'' in \emph{Philosophy of
+      Physics: Space and Time}
+  \item McDonald. The relativity of acceleration
+    \rurl{kirkmcd.princeton.edu/examples/rel_accel.pdf}
+  \end{itemize}
+
+\item Principle vs Constructive Theories
+  \begin{itemize}
+  \item Brown. \emph{Physical relativity: Spacetime structure from a
+      dynamical perspective}
+  \item Brown and Pooley. Minkowski spacetime: A glorious non-entity
+  \item Janssen. Drawing the line between kinematics and dynamics in
+    special relativity
+  \item Norton. Why constructive relativity fails
+  \item Lange. Did Einstein really believe that principle theories are
+    explanatorily powerless?
+  \item Felline. Scientific explanation between principle and
+    constructive theories
+  \item Giovanelli. `Like thermodynamics before Boltzmann'. On the
+    emergence of Einstein's distinction between constructive and
+    principle theories
+  \item Giovanelli. Relativity theory as a theory of principles. A
+    reading of Cassirer's Zur Einstein'schen Relativitätstheorie
+  \item J. Read. Geometrical constructivism and modal relationalism:
+    Further aspects of the dynamical/geometrical debate
+    \doi{10.1080/02698595.2020.1813530}
+  \end{itemize}
+
+\item Conventionalism vs cutting nature at the joints
+
+  %% hinge principles ?
+
+  The debate about conventionalism is a very old one, and it received
+  a sharp formulation after the development of non-euclidean
+  geometries in the nineteenth century. The most notorious geometric
+  conventionalist was Henri Poincar{\'e} who said that the choice of
+  geometry cannot and should not intend to mirror the objective
+  structure of space. The choice of geometry is conventional.
+
+  Poincar{\'e}'s geometric conventionalism was taken over by the
+  logical positivists and turned into a general doctrine about the
+  role of analytic principles in scientific knowledge.
+
+  By the looks of it, conventionalism as a philosophical stance was
+  eradicated by the 1980s, as a result of trenchant critiques by
+  Quine, Putnam, Earman, Friedman, Nerlich, etc. So why take this
+  subject back up again?  In short, it's unclear what is supposed to
+  replace conventionalism if not the extreme (and absurd) view that
+  the form/content distinction has been abolished.
+  \begin{itemize}
+  \item philosophy of geometry
+    %% to do: student paper - what Poincare said about winning objectivity
+    %% Burgess: rigor and structure
+    %% Lewis: new work theory of universals
+    \begin{itemize}
+    \item Helmholtz
+    \item Poincar{\'e}. On the foundations of geometry
+    \item Poincar{\'e}. Non-euclidean geometry and physics
+    \item Heis. The geometry behind Poincar{\'e}'s conventionalism
+    % Folina. Poincaré's Conception of the Objectivity of Mathematics  
+    \end{itemize}
+  \item Kamlah. Hans Reichenbach's relativity of
+    geometry. \doi{10.1007/bf00485877}
+  \item Nerlich. \textit{The shape of space}, pp 160--177
+  \item Sider. \emph{Writing the book of the world}, pp 40--43
+  \item Putnam. An examination of Gr{\"u}nbaum's philosophy of
+    geometry \doi{10.1017/CBO9780511625268.008}
+  \item Putnam. The refutation of conventionalism
+    \doi{10.2307/2214643}
+  \item Coffa. Geometry and semantics: an examination of Putnam's
+    philosophy of geometry \doi{10.1007/978-94-009-7055-7_1}
+  \item \emph{Defending Einstein: Hans Reichenbach's writings on
+      space, time and motion}
+  \item D{\"u}rr and Ben-Menahem. Why Reichenbach wasn't entirely
+    wrong, and Poincar{\'e} was almost right, about geometric
+    conventionalism
+  \item DiSalle. Conventionalism and modern physics: a re-assessment
+    \doi{10.1111/1468-0068.00367}
+  \item Weatherall and Manchak. The geometry of conventionality
+    \doi{10.1086/675680}
+  \item Sklar. \textit{Space, time, and spacetime}, pp 88--147
+  \item Toretti. \textit{Relativity and geometry}, pp 230--246
+  \item Friedman. \textit{Foundations of space-time theories}, pp
+    264--339
+  \item Friedman. Poincar{\'e}'s conventionalism and the logical
+    positivists
+  \item Norton. ``Why geometry is not conventional: the verdict of
+    covariance principles'' in \textit{Semantical Aspects of Spacetime
+      Theories}
+  \item Warren. \textit{Shadows of syntax: revitalizing logical and
+      mathematical conventionalism}
+  \item Ben-Menahem. Convention: Poincar{\'e} and some of his critics
+    \rurl{jstor.org/stable/3541926}
+  \item Ben-Menahem. \textit{Conventionalism: from Poincar{\'e} to
+      Quine}
+  \item Zahar. Poincar{\'e}'s philosophy of geometry, or does
+    geometric conventionalism deserve its name?
+    \doi{10.1016/S1355-2198(96)00027-5}
+  \item Creath. Carnap's conventionalism
+    \rurl{jstor.org/stable/20117711}
+  \item Stump. Defending conventions as functionally a priori
+    knowledge
+  \item Bland. An analysis of conventionalism in early analytic
+    philosophy. Phd Thesis, Western University 2009.
+  \item D{\"u}rr and Read. Reconsidering Conventionalism: An
+    Invitation to a Sophisticated Philosophy for Modern (Space-) Times
+  \item Tasdan and Th{\'e}bault. Spacetime conventionalism revisited
+    \doi{10.1017/psa.2023.103}
+  \end{itemize}
+
+\item Coordinative definitions $|$ Correspondence rules
+
+  \begin{itemize}
+  \item Shapiro. `Coordinative definition' and Reichenbach's semantic
+    framework: A reassessment \rurl{doi.org/10.1007/BF01130757}
+  \end{itemize}  
+
+\item Relativity and the verification criterion of meaning
+  %% Berkeley
+  %% the aether -- unobservable structure
+  %% Newtonian preferred frame
+  %% https://sites.pitt.edu/~jdnorton/teaching/HPS_0410/chapters/significance_2/index.html
+  %% W.L. Craig on the flaws of STR
+  %% Reichenbach
+  \begin{itemize}
+  \item Mach  
+  \item Nerlich. On learning from the mistakes of the positivists
+    \rurl{doi.org/10.1016/S0049-237X(08)70060-0}
+  \item Friedman. ``Relativity theory and logical positivism'' in
+    \emph{Foundations of space-time theories}, pp 3--31
+    % Holton, "Mach, Einstein, and the search for reality"
+  \item P. Frank. ``Einstein, Mach, and logical positivism'' in
+    \textit{Albert Einstein: Philosopher-Scientist}
+    \url{dropbox.com/s/iridamr5gz7k67k/frank-einstein.pdf?dl=0}
+  \item Norton. ``How Hume and Mach helped Einstein find special
+    relativity'' in Friedman et al. (eds.) \textit{Discourse on a new
+      method: reinvigorating the marriage of history and philosophy of
+      science}
+  \item Slavov. Time as an empirical concept in special relativity
+    \rurl{doi.org/10.1353/rvm.2019.0084}
+  \end{itemize}  
+  
+\item Frames of reference $|$ Contexts $|$ Indexicals
+  \begin{itemize}
+  \item DiSalle. Space and time: inertial frames
+    \rurl{plato.stanford.edu/entries/spacetime-iframes}
+  \item DiSalle. Conventionalism and the origins of the inertial frame
+    concept \rurl{jstor.org/stable/193063}
+  \item Pinillos. Time dilation, context and relative truth
+  \item Kaplan. ``Demonstratives''
+  \item K{\"o}lbel. Indexical relativism versus genuine relativism
+  \item Mühlhölzer. ``Objektivität und Relativität'' in Weingartner
+    and Czermak (eds.) \textit{Epistemology and philosophy of science}
+    \rurl{dropbox.com/s/4dcc7e3djw5g0sp/muehlhoelzer.pdf}
+\item Mühlhölzer. On objectivity \doi{10.1007/bf00166443}
+  % what does "preferred" mean?
+  % \item Solomyak. ``Temporal ontology and the metaphysics of perspectives''  
+\end{itemize}
+
+% relationship between frame of reference, coordinates, context
+
+\item Coordinates $|$ Invariants $|$ Covariance
+  \begin{itemize}
+  \item Pooley. Background independence, diffeomorphism invariance and
+    the meaning of coordinates
+  \item Norton. Coordinates and covariance: Einstein's view of
+    space-time and the modern view \rurl{doi.org/10.1007/bf00731880}
+  \item Giovanelli. Nothing but coincidences: the point-coincidence
+    and Einstein's struggle with the meaning of coordinates in
+    physics \rurl{doi.org/10.1007/s13194-020-00332-7}
+  \item Wallace. Who's afraid of coordinate systems? An essay on
+    representation of spacetime structure
+    \url{doi.org/10.1016/j.shpsb.2017.07.002}
+  \item North. \emph{Physics, structure, and reality}
+    \rurl{doi.org/10.1093/oso/9780192894106.001.0001}
+  \item Barrett. Coordinates, structure, and classical mechanics: a
+    review of Jill North’s Physics, Structure, and Reality
+    \doi{10.1017/psa.2022.27}
+  \item Suppes. Invariance, symmetry and meaning
+    \rurl{doi.org/10.1023/a:1026437914611}
+  \item Earman. Covariance, invariance and the equivalence of
+    frames \rurl{doi.org/10.1007/BF00712691}
+  \item Vollmer. Invariance and objectivity
+    \rurl{doi.org/10.1007/s10701-010-9471-x}
+  \item Winnie. ``Invariants and objectivity: A theory with
+    applications to relativity and geometry''  
+  \item Scheibe. ``Invariance and covariance'' in \textit{Space, time, and mechanics}
+    \rurl{dropbox.com/s/mhd5tqhneut1laf/scheibe-invariance.pdf?dl=0}
+  \end{itemize}
+
+  % geodesic coordinates
+  
+\item Absolute objects
+  \begin{itemize}
+  \item Anderson. Covariance, invariance, and equivalence: A
+    viewpoint \rurl{doi.org/10.1007/BF02450447}
+  \item Friedman. \emph{Foundations of space-time theories}
+    \rurl{doi.org/10.1515/9781400855124}
+  \item Friedman. Relativity principles, absolute objects and symmetry
+    groups \rurl{doi.org/10.1007/978-94-010-2686-4_14}
+  \item Read. ``Geometric objects and perspectivalism'' in Read and
+    Teh (eds.) \textit{The philosophy and physics of Noether's
+      theorems} \rurl{doi.org/10.1017/9781108665445.011}
+  \item Howard. ``Point coincidences and pointer coincidences:
+    Einstein on invariant structure in spacetime theories'' in
+    \textit{The expanding worlds of general relativity}
+  \end{itemize}
+
+\item Intrinsic versus Extrinsic
+  \begin{itemize}
+  \item Friedman. \textit{Foundations of space-time theories}, p 339
+  \item North. \emph{Physics, structure, and reality}
+    \rurl{doi.org/10.1093/oso/9780192894106.001.0001}
+  \item Jacobs. Invariance, intrinsicality, and perspicuity
+    \doi{10.1007/s11229-022-03682-2}
+  \item Skow. Are shapes intrinsic? \doi{10.1007/s11098-006-9009-4}
+  \item Marshall and Weatherson. Intrinsic vs. extrinsic properties
+    \rurl{plato.stanford.edu/entries/intrinsic-extrinsic}
+  \item Bader. Towards a hyperintensional theory of intrinsicality
+    \doi{10.5840/jphil2013110109}
+  \end{itemize}
+
+\item Substantivalism vs Relationalism
+  \begin{itemize}
+  \item Newton. \textit{De Gravitatione}
+  \item Leibniz-Clarke correspondence
+  \item Berkeley. \textit{Philosophical writings}
+  \item Huggett. Motion and relativity before Newton
+  \item Maudlin. ``Space, absolute, and relational'' in Le Poidevan
+    (ed.) \textit{The Routledge companion to metaphysics}
+  \item Pooley. ``Substantivalist and relationalist approaches to
+    spacetime'' in \textit{The Oxford handbook of philosophy of
+      physics} \rurl{doi.org/10.1093/oxfordhb/9780195392043.013.0016}
+  \item Dasgupta. Substantivalism vs relationalism about space in
+    classical physics \rurl{doi.org/10.1111/phc3.12219}
+  \item Teitel. How to be a spacetime substantivalist
+    \url{doi.org/10.5840/jphil2022119517}
+  \item Nerlich. Space-time substantivalism
+    \rurl{doi.org/10.1093/oxfordhb/9780199284221.003.0011}
+  \end{itemize}
+
+\item Revisionary relationalism
+
+  There is a sub-branch of relationalism that aims to rewrite
+  spacetime theories so that they do not ``quantify over spacetime
+  points''. Similar thoughts might also have been the motivation for
+  the so-called ``Einstein algebra program'' (see Earman, Weatherall
+  et al.).
+
+  \begin{itemize}
+  \item Field. Can we dispense with space-time?
+    \rurl{jstor.org/stable/192496}
+  \item Manders. On the space-time ontology of physical theories
+    \rurl{jstor.org/stable/187166}
+  \item Babic and Cocco. Mandersian relationism: space, modality and
+    equivalence \doi{10.1017/psa.2023.64}    
+  \item Burgess. Sets and point-sets: five grades of set-theoretic
+    involvement in geometry \rurl{jstor.org/stable/192905}
+  \item Burgess. Synthetic mechanics \doi{10.1007/bf00247712}
+  \item Burgess. Synthetic mechanics revisited
+    \doi{10.1007/bf00284971}
+  \item Bacon. Relative locations. \textit{Oxford Studies in
+      Metaphysics}
+  \item Hale. Spacetime and the abstract/concrete distinction
+    \doi{10.1007/BF00355677}
+  \end{itemize}
+
+  The revisionary philosophers might also welcome the fact that
+  General Relativity can be done without any spacetime points at all
+  --- viz.\ via the the program of ``Einstein algebras''.
+
+  \begin{itemize}
+  \item Rosenstock et al. On Einstein algebras and relativistic
+    spacetimes \doi{10.1016/j.shpsb.2015.09.003}
+  \end{itemize}
+
+  How are we supposed to think about the situation here? We have one
+  theory formulation in which there are spacetime points, and one in
+  which there are not. Moreover, these formulations are equivalent in
+  a precise sense (as proven by Rosenstock et al.).
+
+\item Incongruent counterparts
+
+  Objects L and \reflectbox{L} are said to be \emph{incongruent
+    counterparts} if: (a) no combination of translations and rotations
+  can move L into the place of \reflectbox{L}, and (b) a combination
+  of translations, rotations, and reflections \emph{can} move L into
+  the place of \reflectbox{L}. Kant famously appealed to incongruent
+  counterparts in two major arguments --- with seemingly contradictory
+  conclusions. In the first, he argues that space is absolute. In the
+  second, he argues that space is transcendentally ideal. Kant's
+  former argument has been revived by substantivalists in recent
+  years.
+
+  \begin{itemize}
+  \item Kant. Directions in space
+  \item Kant. Prolegomena
+  \item Nerlich. Hands, knees, and absolute space
+  \item Earman. \emph{World enough and spacetime}, pp 137--153
+  \item Hogan. Handedness, idealism and freedom
+  \item Van Cleve and Frederick (eds.) \textit{The philosophy of right
+      and left: incongruent counterparts and the nature of space}
+  \item Pooley. Handedness, parity violation, and the reality of space
+    [Relationalist counterargument: the existence of incongruent
+    counterparts does not imply substantivalism]
+  \item Nerlich. Incongruent counterparts and the reality of space
+    \rurl{doi.org/10.1111/j.1747-9991.2009.00212.x}
+%   \item Orientable manifolds
+%   \item Knots 
+  \end{itemize}
+
+\item The hole argument
+  % metric essentialism; counterpart theory
+  \begin{itemize}
+  \item Earman and Norton. What price spacetime substantivalism? The
+    hole story \rurl{doi.org/10.1093/bjps/38.4.515}
+  \item Butterfield. The hole truth \rurl{doi.org/10.1093/bjps/40.1.1}
+  \item Maudlin. The essence of space-time \rurl{jstor.org/stable/192873}
+  \item Maudlin. Substances and space-time: What Aristotle would have
+    said to Einstein
+  \item Rynasiewicz. Is there a syntactic solution to the hole
+    problem?
+  \item Stachel. The hole argument and some physical and philosophical
+    implications \rurl{doi.org/10.12942/lrr-2014-1}
+  \item Weatherall. Regarding the `hole argument'
+    \rurl{doi.org/10.1093/bjps/axw012}
+  \item Pooley and Read. On the mathematics and metaphysics of the
+    hole argument \rurl{doi.org/10.1086/718274}
+  \item Bradley and Weatherall. Mathematical responses to the hole
+    argument: then and now \rurl{doi.org/10.1017/psa.2022.58}
+  \item Bradley and Weatherall. On representational redundancy,
+    surplus structure, and the hole argument
+    \doi{10.1007/s10701-020-00330-y}
+  \item Halvorson and Manchak. Closing the hole argument
+    \rurl{doi.org/10.1086/719193}
+  \item Mundy. Space-time and isomorphism
+  \item Teitel. Holes in spacetime: Some neglected essentials
+    \rurl{doi.org/10.5840/jphil2019116723}
+  \item Jacobs. Some neglected possibilities: a reply to Teitel  
+  \item Gomes and Butterfield. The hole argument and beyond, Part I:
+    The story so far
+  \item Gomes and Butterfield. The hole argument and beyond, Part II:
+    Treating non-isomorphic spacetimes \doi{10.48550/arXiv.2303.14060}
+  \item Dougherty. The hole argument, take $n$
+    \doi{10.1007/s10701-019-00291-x}
+  \item Ladyman and Presnell. The hole argument in homotopy-type
+    theory \doi{10.1007/s10701-019-00293-9}
+%% ETCS     
+  \end{itemize}
+
+  The hole argument is one of the best examples of a topic where
+  physics, mathematics, and philosophy come together. Weatherall,
+  Halvorson, and Manchak suggest that reasoning with the models of a
+  theory never requires identification of points across models. Gomes
+  and Butterfield disagree. Could we do all interesting mathematical
+  physics in a structural set theory, such as Lawvere's ETCS? That
+  question is interesting, not just for the hole argument, but for
+  general questions about the indispensability of mathematical objects
+  for physics. (My opinion is that physics can be systematically
+  agnostic about most questions of mathematical ontology. If the hole
+  problem depends crucially on Zermelo-Frankel set theory --- with its
+  global elementhood relation --- then it's a pseudo-problem for
+  physics.)
+
+  The next two topics are central to the hole argument, but hold even
+  more general philosophical interest.
+
+\item Leibniz shift and possibility
+
+  Question: if you shift a possible world one meter to the left then
+  is the result a new possible world? i.e., do shifts create new
+  possibilities? How do we count the number of possibilities? Does
+  Ockham's razor apply in the space of possible worlds? Does the
+  Principle of the Identity of Indiscernibles apply in the space of
+  possible worlds? (My opinion is that we get confused when we try to
+  reason about possible worlds as if they were concrete things.)
+
+  \begin{itemize}
+  \item Roberts. Regarding `Leibniz equivalence'
+    \rurl{doi.org/10.1007/s10701-020-00325-9}
+  \item Belot. Fifty million Elvis fans can't be wrong
+  \item Halvorson. \emph{The logic in philosophy of science}, pp
+    257--260
+  \end{itemize}
+
+\item Determinism
+  \begin{itemize}
+  \item Montague. ``Deterministic theories'' in Thomason (ed.)
+    \textit{Formal Philosophy}
+  \item Earman. \textit{Primer of determinism}
+  \item Leeds. Holes and determinism: another look
+    \rurl{doi.org/10.1086/289876}
+  \item Belot. Determinism and ontology
+    \rurl{doi.org/10.1080/02698599508573508}
+  \item Brighouse. Determinism and modality
+    \rurl{doi.org/10.1093/bjps/48.4.465}
+  \item Melia. Holes, haecceitism and two conceptions of determinism 
+%   \item Werndl. ``Deterministic versus indeterministic descriptions:
+%    not that different after all?'' in Hieke and Leitgeb (eds.)
+%     \textit{Reduction, Abstraction, Analysis}
+%   \item M. Wilson, ``Determinism and the Mystery of the Missing Physics''
+  \end{itemize}
+
+\item Causality in relativity theory
+  %% speed of light and signalling  
+  \begin{itemize}
+  \item Petzoldt. Kausalit{\"a}t und Relativit{\"a}tstheorie
+  \end{itemize}
+
+\item Spacetime representation \dots or, what actually is the aim of
+  spacetime physics?
+  \begin{itemize}
+  \item Poincar{\'e}. On the foundations of geometry [Argues that
+    there is no direct sense in which geometric spaces are supposed to
+    represent physical space. But bases some of his arguments on
+    suspect/falsified claims about human perception.]
+  \item Galison. Minkowski space-time: from visual thinking to the
+    absolute world \rurl{doi.org/10.2307/27757388}
+  \item Mundy. The physical content of Minkowski geometry
+    \rurl{jstor.org/stable/686996}
+  \item Ludwig. Is the geometry of physical space a form of pure
+    sensible intuition? a technical construction? or a structure of
+    reality?  \rurl{dropbox.com/s/8x8z6ihfb99drg0/ludwig2.pdf?dl=0}
+  \item Fletcher. On representational capacities, with an application
+    to general relativity \rurl{doi.org/10.1007/s10701-018-0208-6}
+  \item Wallace. Stating structural realism: mathematics-first
+    approaches to physics and metaphysics
+    \rurl{philsci-archive.pitt.edu/20048}
+  \end{itemize}
+
+
+\item Spacetime functionalism
+  \begin{itemize}
+  \item Baker. On spacetime functionalism
+    \rurl{philpapers.org/rec/BAKOSF}
+  \end{itemize}
+
+\item Kant on space and time 
+  
+  The contemporary literature on space (and time) poses a dilemma:
+  either realism or antirealism. We see the same dilemma in the
+  Leibniz-Clarke correspondence. Kant's original answer was realism
+  about space. But then something changed --- and he came to see the
+  dilemma as false.
+  \begin{itemize}
+  \item Tolley. The difference between original, metaphysical, and
+    geometrical representations of space
+    \doi{10.1057/978-1-137-53517-7_11}
+  \item Carrier. Kant's relational theory of absolute space
+    \doi{10.1515/kant.1992.83.4.399}
+  \item Hatfield. Kant on the perception of space (and time)
+  \item Schneider. \textit{Das Raum-Zeit-Problem bei Kant und Einstein}
+    \doi{10.1007/978-3-642-92225-1}
+  \item Stan. Absolute space and the riddle of rotation: Kant’s
+    response to Newton
+  \end{itemize}
+
+\item Space and time as conditions of things in themselves
+  %% Maudlin (about quantum gravity? see Jaksland)
+  % Maudlin. Completeness, supervenience, and ontology
+  %% Esfeld 
+  %% Carrier. Kant’s Relational Theory of Absolute Space 10.1515/kant.1992.83.4.399
+  \begin{itemize}
+  \item Hegel. \textit{Vorlesungen \"Uber die Geschichte der
+      Philosophie, Band III} [\textit{Lectures on the history of
+      philosophy} \rurl{gutenberg.org/ebooks/58169}]
+  \item Inwood. ``Kant and Hegel on space and time'' in Priest (ed.)
+    \textit{Hegel's Critique of Kant}
+  \item Jenkins. Hegel on space: A critique of Kant's transcendental
+    philosophy \doi{10.1080/0020174X.2010.493367}
+    % F. A. Trendelenburg and the Neglected Alternative Andrew Specht
+    % Esfeld. Super-Humeanism: The Canberra Plan for Physics
+    %%%%% The Foundation of Reality: Fundamentality, Space, and Time
+    %%%%% David Glick (ed.),  George Darby (ed.),  Anna Marmodoro (ed.)
+  \end{itemize}
+  
+\end{enumerate}
+
+\subsection*{Additional sources (mathematical foundations)}
+
+\begin{itemize}
+\item Naber. \emph{The geometry of Minkowski spacetime}
+\item Mac Lane. \emph{Geometrical mechanics} [elegant presentation of
+  differential geometry, but focused on analytic mechanics rather than
+  relativity theory]
+\item Moerdijk and Reyes. \textit{Models for smooth infinitesimal
+    analysis}
+\item Reyes. A derivation of Einstein's vacuum field equations
+\item Ketland. Axiomatization of Galilean Spacetime  
+\end{itemize}
+
+\subsection*{Additional sources}
+
+\begin{itemize}
+\item Arntzenius. \textit{Space, time, and stuff}
+\item Dorato. The affective and practical consequences of presentism
+  and eternalism
+\item Read. \textit{Special relativity}
+\item Kragh. \textit{Quantum generations: a history of physics in the
+    twentieth century}
+\item Ismael. Rethinking time and determinism: what happens to
+  determinism when you take relativity seriously
+\item Halvorson. Objective description in physics
+  \rurl{philpapers.org/rec/HALODI-2}
+\item Disalle. Spacetime theory as physical geometry
+  \doi{10.1007/bf01129008}
+\item Dewar. General-relativistic covariance
+  \doi{10.1007/s10701-019-00256-0}
+\item Pais. \textit{`Subtle is the Lord \dots ': The science and the
+    life of Albert Einstein}
+\item Balashov. \emph{Persistence and spacetime}
+\item Belot. \textit{Geometric possibility}  
+\item Bridgman. \emph{A sophisticate's primer of relativity}
+\item Darrigol. \textit{Relativity principles and theories from
+    Galileo to Einstein}
+\item Petzoldt. \emph{Die Stellung der Relativit{\"a}ts-Theorie in der
+    geisteigen Entwicklung der Menschheit}
+\item Russo-Krauss. \textit{The philosophy of Joseph Petzoldt: From
+    Mach's positivism to Einstein's relativity}
+\item Janssen. ``Special relativity'' in \emph{The Cambridge Companion
+    to Einstein} \doi{10.1017/CCO9781139024525.017}
+\item Landsman. \textit{Foundations of general relativity: from
+    Einstein to black holes}
+  \rurl{math.ru.nl/~landsman/FGRBook2022-online.pdf}
+\item Norton. ``Philosophy of space and time'' in \emph{Introduction
+    to the philosophy of science}
+\item Norton. What we can learn about the ontology of space and time
+  from the theory of relativity
+  \doi{10.1093/acprof:oso/9780195145649.003.0008}
+\item Norton. General covariance and the foundations of general
+  relativity
+\item Pesic. \textit{Beyond geometry}
+\item Huggett. \emph{Space from Zeno to Einstein}
+  \rurl{archive.org/details/B-001-001-239}
+\item Schlick. \emph{Raum und Zeit in der gegenw{\"a}rtigen Physik}
+\item Schlick. \textit{Texte zu Einsteins Relativit{\"a}tstheorie}
+\item Cassirer. \textit{Zur Einsteinschen
+    Relativitätstheorie. Erkenntnistheoretische Betrachtungen}
+\item Knox and Wilson. \textit{The Routledge companion to philosophy
+    of physics} (part II special relativity and part III general
+  relativity)
+\begin{itemize}
+\item Brown and Read. ``The dynamical approach to spacetime theories''
+\item Weatherall. ``Classical spacetime structure''
+\end{itemize}
+\item Fletcher. Relativistic spacetime structure
+\item \textit{Toward a theory of spacetime theories}
+  \doi{10.1007/978-1-4939-3210-8}
+  \begin{itemize}
+  \item Beisbart. A model-theoretic analysis of space-time theories
+  \end{itemize}
+  %% Beisbart on model theoretic
+\item Sklar. \textit{Space, time, and spacetime}
+\item Salmon. \textit{Space, time, and motion}
+\item Torretti. \textit{Relativity and geometry}
+\item Torretti. \textit{Philosophy of geometry from Riemann to
+    Poincar{\'e}}
+\item Torretti. Nineteenth century geometry
+  \rurl{plato.stanford.edu/entries/geometry-19th}
+\item Miller. \textit{Albert Einstein's special theory of relativity:
+    emergence (1905) and early interpretation (1905-1911)}
+\item E. Nagel. ``Relativity and twentieth-century intellectual life''
+  in Woolf (ed.) \textit{Some strangeness in the proportion}
+\item Craig and Smith (eds.) \textit{Einstein, relativity and absolute
+    simultaneity}
+\item Reichenbach. \textit{The philosophy of space and time}
+\item Steane. \textit{Relativity made relatively easy}
+  % Klaus Hentschel, Die Korrespondenz Petzold—Reichenbach: Zur Entwicklung der
+  %% ‘wissenschaftlichen Philosophie’ in Berlin
+\item Giovanelli. `But one must not legalize the mentioned sin':
+  Phenomenological vs. dynamical treatments of rods and clocks in
+  Einstein's thought \doi{10.1016/j.shpsb.2014.08.012}
+\item Cutter. Spatial experience and special relativity
+  \doi{10.1007/s11098-016-0799-8}
+\item Peacock. A new look at simultaneity
+  \rurl{jstor.org/stable/192782}
+\item Belot. ``Time in classical and relativistic physics'' in Bardon
+  and Dyke (eds.) \textit{A companion to the philosophy of time}
+  %% \item Robb. \textit{Geometry of time and space}
+\item Hiskies. Space-time theories and symmetry groups
+  \doi{10.1007/BF00738921}
+\item F{\o}llesdal. Relativity, rotation and rigidity
+  % \item Slavov. ``Kaila's interpretation of Einstein-Minkowski
+  %   invariance
+  %   theory'' % https://doi.org/10.1016/j.shpsa.2022.03.001
+\item Schilpp (ed.) \textit{Albert Einstein: Philosopher-Scientist}
+  % Hatfield. ``Kant on the perception of space (and time)''
+\item Hodgson. Relativity and religion. The abuse of Einstein's theory
+  \doi{10.1111/1467-9744.00506}
+\item Verhaegh. The reception of relativity in American
+  philosophy. \doi{10.1017/psa.2023.85}
+\item \fullcite{russo2023}
+\item \fullcite{neuber2023}
+\item \fullcite{meyerson}
+\item \fullcite{holst}
+\end{itemize}
+
+% Nerlich, "Simultaneity and convention in special relativity"
+
+% Russell. Is position in time and space absolute or relative?
+
+% Jammer, Einstein and Religion (also talks about absolute
+% simultaneity)
+
+% Friedman, "Simultaneity in Newtonian Mechanics and Special
+% Relativity''
+
+% Craig, "God and real time"
+% http://www.leaderu.com/offices/billcraig/docs/realtime.html
+
+%% ". . . the theory of relativity put an end to the idea of absolute
+%% time . . . . The theory of relativity does . . . force us to change
+%% fundamentally our ideas of space and time" (Stephen Hawking, A
+%% Brief History of Time [New York: Bantam Books, 1988], pp. 21, 23).
+
+% Lawrence Sklar, "Time, reality and relativity," in Reduction, Time
+% and Reality, ed. R. Healey (Cambridge: Cambridge University Press,
+% 1981)
+
+% G. Holton, "Mach, Einstein, and the Search for Reality," in Ernst
+% Mach: Physicist and Philosopher
+
+% Takeuchi. An Illustrated Guide to Relativity
+
+%% Nijenhuis
+%% natural bundles
+%% Michior
+
+%% Macfarlane. Assessment Sensitivity: Relative Truth and its Applications.
+
+% Klaus Hentschel
+  %% Die Korrespondenz Petzold—Reichenbach: Zur Entwicklung der
+  %% ‘wissenschaftlichen Philosophie’ in Berlin
+
+  % S. Wagner (1982). Ludwig Boltzmann and the special theory of
+  % relativity, in Ludwig Boltzmann Gesammtausgabe: 8. Ausgewahlte
+  % Abhandlungen der Internationalen Tagung Wien 1881, ed. R. Sexl and
+  % J. Blackmore, pp. 341–54. Akademische Druck- und Verlagsanstalt,
+  % Graz. (Boltzmann's use of the concept of reference frame)
+
+  % D'Inverno
+  % Wald
+  % Lilian Lieber
+
+
+\end{document}
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
